@@ -1,5 +1,5 @@
-@inventory
-  Feature:
+@inventory @log
+  Feature:User can select Items from Inventory
 
 #
 #    User can Remove items from Inventory Page
