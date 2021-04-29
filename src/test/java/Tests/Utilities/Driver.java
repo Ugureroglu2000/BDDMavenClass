@@ -13,7 +13,7 @@ public class Driver {
     private static InheritableThreadLocal<WebDriver> driverpool=new InheritableThreadLocal<WebDriver>();
 
     public static WebDriver get(){
-        if (driverpool == null) {
+        if (driverpool.get() == null) {
             String browser=ConfigurationReader.get("browser");
 
             switch (browser){
@@ -39,8 +39,8 @@ public class Driver {
     public  static  void closeDriver()  {
 //        Thread.sleep(3000);
 
-            driverpool.get().quit();
-          driverpool.remove();
+        driverpool.get().quit();
+        driverpool.remove();
     }
 
 

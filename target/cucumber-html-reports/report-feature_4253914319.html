@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
 
-<title>Cucumber Reports (no 1) - Feature: </title>
+<title>Cucumber Reports (no 1) - Feature: User can select Items from Inventory</title>
 
 </head>
 <body>
@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>29 Apr 2021, 19:10</td>
+      <td>29 Apr 2021, 23:14</td>
     </tr>
   </tbody>
 </table>
@@ -128,20 +128,20 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname"></td>
-          <td      class="passed"    >2</td>
-          <td      class="failed"    >1</td>
+          <td class="tagname">User can select Items from Inventory</td>
+          <td      class="passed"    >3</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">3</td>
 
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="4754629800">4.754</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="3399958800">3.399</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -172,12 +172,13 @@ $(document).ready(function() {
 <div class="tags indention">
     <b>Tags:</b>
        <a href="report-tag_434921755.html">@inventory</a>
+       <a href="report-tag_2149497603.html">@log</a>
 </div>
 
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Feature</span>
-  <span class="name"></span>
+  <span class="name">User can select Items from Inventory</span>
 
 
 </div>
@@ -192,15 +193,16 @@ $(document).ready(function() {
 <div class="tags indention">
     <b>Tags:</b>
        <a href="report-tag_434921755.html">@inventory</a>
+       <a href="report-tag_2149497603.html">@log</a>
 </div>
 
 
-  <span class="lead-duration duration">4.754</span>
+  <span class="lead-duration duration">3.399</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">User can Select and Add items to the cart from Inventory Page</span>
 
@@ -211,7 +213,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
@@ -233,7 +235,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">Tests.StepDefinitions.hooks.before()</span>
 
-  <span class="lead-duration duration">3.557</span>
+  <span class="lead-duration duration">2.475</span>
 
           </div>
 
@@ -250,9 +252,9 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -262,7 +264,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -270,7 +272,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">User is in Inventory page</span>
 
-  <span class="lead-duration duration">1.892</span>
+  <span class="lead-duration duration">1.811</span>
 
 </div>
 
@@ -297,7 +299,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">User select and click add item</span>
 
-  <span class="lead-duration duration">2.526</span>
+  <span class="lead-duration duration">1.416</span>
 
 </div>
 
@@ -320,11 +322,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then failed">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">The item is in cart</span>
 
-  <span class="lead-duration duration">0.335</span>
+  <span class="lead-duration duration">0.171</span>
 
 </div>
 
@@ -332,24 +334,6 @@ $(document).ready(function() {
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>java.lang.AssertionError:</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>java.lang.AssertionError: expected:&lt;2&gt; but was:&lt;23&gt;
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.failNotEquals(Assert.java:835)
-	at org.junit.Assert.assertEquals(Assert.java:647)
-	at org.junit.Assert.assertEquals(Assert.java:633)
-	at Tests.StepDefinitions.Inventory.the_item_is_in_cart(Inventory.java:40)
-	at &#10045;.The item is in cart(file:///C:/Users/HP/IdeaProjects/BDDMavenClass/src/test/resources/Features/inventory.feature:13)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -369,7 +353,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -381,13 +365,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-5" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">Tests.StepDefinitions.hooks.after(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.353</span>
+  <span class="lead-duration duration">0.728</span>
 
           </div>
 
@@ -396,21 +380,6 @@ $(document).ready(function() {
 
 
 
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
-      <a>screenshot</a>
-      <a href="embeddings/embedding_-1990616968.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-6" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_-1990616968.png">
-      </div>
-    </div>
-  </div>
-  </div>
 
         </div>
     </div>
