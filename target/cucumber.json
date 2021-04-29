@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-29T18:18:31.362Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat Tests.StepDefinitions.hooks.before(hooks.java:18)\r\n",
+              "duration": 11960100,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Tests.StepDefinitions.hooks.before()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User can Select and Add items to the cart from Inventory Page",
+        "description": "",
+        "id": ";user-can-select-and-add-items-to-the-cart-from-inventory-page",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat Tests.StepDefinitions.hooks.after(hooks.java:25)\r\n",
+              "duration": 19957800,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Tests.StepDefinitions.hooks.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994800,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User is in Inventory page",
+            "match": {
+              "location": "Tests.StepDefinitions.Inventory.user_is_in_Inventory_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1995300,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User select and click add item",
+            "match": {
+              "location": "Tests.StepDefinitions.Inventory.user_select_and_click_add_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1994400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "The item is in cart",
+            "match": {
+              "location": "Tests.StepDefinitions.Inventory.the_item_is_in_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@inventory"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/inventory.feature",
+    "tags": [
+      {
+        "name": "@inventory",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
