@@ -1,5 +1,6 @@
 package Tests.StepDefinitions;
 
+import Tests.Utilities.ConfigurationReader;
 import Tests.Utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -14,9 +15,9 @@ public class hooks {
 
     @Before
     public void before(){
-        WebDriver driver= Driver.get();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        Driver.get().manage().window().maximize();
+        Driver.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
     }
     @After
