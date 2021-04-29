@@ -14,9 +14,9 @@ public class hooks {
 
     @Before
     public void before(){
-        WebDriver driver= Driver.get();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//        WebDriver driver= Driver.get();
+        Driver.get().manage().window().maximize();
+        Driver.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
     }
     @After
