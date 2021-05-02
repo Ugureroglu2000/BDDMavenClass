@@ -2,6 +2,7 @@ package Tests.StepDefinitions;
 
 import Tests.Pages.LoginPage;
 import Tests.Utilities.ConfigurationReader;
+import Tests.Utilities.Drive;
 import Tests.Utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -29,7 +30,7 @@ public class Login {
 
     @Then("User can log in")
     public void user_can_log_in() {
-        String currentUrl=Driver.get().getCurrentUrl();
+        String currentUrl= Driver.get().getCurrentUrl();
         Assert.assertTrue(currentUrl.contains("inventory.html"));
 
     }

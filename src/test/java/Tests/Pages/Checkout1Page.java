@@ -1,0 +1,36 @@
+package Tests.Pages;
+
+import Tests.Utilities.Driver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class Checkout1Page extends BasePage{
+
+    public Checkout1Page() {        PageFactory.initElements(Driver.get(),this);    }
+
+    @FindBy(id = "first-name")
+    public WebElement FirstName;
+
+    @FindBy(id = "last-name")
+    public WebElement LastName;
+
+    @FindBy(id = "postal-code")
+    public WebElement PostalCode;
+
+    @FindBy(id = "continue")
+    public WebElement ContinueButton;
+
+    @FindBy(xpath = "//*[@data-test='error']")
+    public WebElement ErrorMessage;
+
+    @FindBy(id = "cancel")
+    public WebElement CancelButton;
+
+    public void ConfirmInformation(String a, String b,String c){
+        FirstName.sendKeys(a);
+        LastName.sendKeys(b);
+        PostalCode.sendKeys(c);
+        ContinueButton.click();
+    }
+}
