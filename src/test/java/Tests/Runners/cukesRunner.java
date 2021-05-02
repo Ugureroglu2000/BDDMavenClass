@@ -1,6 +1,5 @@
 package Tests.Runners;
 
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -12,10 +11,8 @@ import org.junit.runner.RunWith;
         features = "src\\test\\resources\\Features",
         glue = "Tests\\StepDefinitions",
         dryRun = false,
-        tags = "@log"
+        tags = "@Cancel"
 )
-
-
 
 public class cukesRunner {
 }
