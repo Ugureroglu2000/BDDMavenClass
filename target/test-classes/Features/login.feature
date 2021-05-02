@@ -1,4 +1,4 @@
-@log
+
 Feature: User may login
 
   Background:

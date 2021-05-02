@@ -1,4 +1,4 @@
-@inventory @log
+
   Feature:User can select Items from Inventory
 
 #
