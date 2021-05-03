@@ -32,6 +32,8 @@ public class Checkout2Page extends  BasePage {
     @FindBy(className = "complete-header")
     public WebElement confheader;
 
+
+
     public void confirmOrder(){
         String Actual=confheader.getText();
         Assert.assertEquals(Actual,"THANK YOU FOR YOUR ORDER");

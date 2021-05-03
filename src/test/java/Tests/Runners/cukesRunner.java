@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src\\test\\resources\\Features",
         glue = "Tests\\StepDefinitions",
         dryRun = false,
-        tags = "@Cancel"
+        tags = "@Remove"
 )
 
 public class cukesRunner {
