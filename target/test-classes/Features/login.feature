@@ -1,4 +1,3 @@
-
 Feature: User may login
 
   Background:
@@ -22,11 +21,11 @@ Feature: User may login
     When User enters "<Username>" and "<Password>" and click
     Then User can not login
     Examples:
-      | Username        | Password       |
-      | Standard_user   | secret_sauce   |
+      | Username      | Password     |
+      | Standard_user | secret_sauce |
 #      | standard_user01 | secret_sauce   |
 #      | standarduser    | secret_sauce   |
-      | standard_user  | secret_sauce   |
+      | standard_user | secret_sauce |
 #      | STANDARD_USER   | secret_sauce   |
 #      | standard_user   |                |
 #      |                 | secret_sauce   |

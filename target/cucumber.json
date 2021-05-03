@@ -3,12 +3,12 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-05-02T11:00:49.146Z",
+        "start_timestamp": "2021-05-03T12:30:42.683Z",
         "before": [
           {
             "result": {
-              "duration": 2000000,
-              "status": "skipped"
+              "duration": 4336000000,
+              "status": "passed"
             },
             "match": {
               "location": "Tests.StepDefinitions.hooks.before()"
@@ -22,7 +22,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4000000,
+              "status": "passed"
             },
             "match": {
               "location": "Tests.StepDefinitions.hooks.after(io.cucumber.java.Scenario)"
@@ -34,8 +35,8 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
-              "status": "skipped"
+              "duration": 8150000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "User in checkout page",
@@ -46,8 +47,8 @@
           },
           {
             "result": {
-              "duration": 2000000,
-              "status": "skipped"
+              "duration": 5740000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "User enters personal information",
@@ -58,8 +59,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 263000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "User can cancel Payment",
