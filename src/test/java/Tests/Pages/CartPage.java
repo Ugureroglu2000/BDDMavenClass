@@ -14,13 +14,17 @@ public class CartPage extends BasePage{
 
     @FindBy(className = "inventory_item_name")
     public List<WebElement> ItemsList;
-    @FindBy(css = ".btn.btn_secondary.btn_small.btn_inventory")
-    public List<WebElement> RemoveButtons;
+   @FindBy(css = ".btn.btn_secondary.btn_small.btn_inventory")
+   public List<WebElement> RemoveButtons;
     @FindBy(className = "inventory_item_price")
     public List<WebElement> ItemsPriceList;
     @FindBy (id="continue-shopping")
     public WebElement ContinueShopping;
+    @FindBy(id ="remove-sauce-labs-backpack")
+    public WebElement removebackpack;
 
+    @FindBy(id ="remove-sauce-labs-bike-light")
+    public WebElement removeBike;
 
     @FindBy (id = "checkout")
     public WebElement checkout;
@@ -32,6 +36,11 @@ public class CartPage extends BasePage{
             }
         }
     }
+
+
+
+
+
 
     public int getPrice(String str){
         int a=0;
