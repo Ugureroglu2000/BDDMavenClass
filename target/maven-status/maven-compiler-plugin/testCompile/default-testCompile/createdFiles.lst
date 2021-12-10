@@ -1,6 +1,12 @@
+Tests\Utilities\BrowserUtils.class
+Tests\Pages\BasePage.class
 Tests\Runners\cukesRunner.class
-Tests\StepDefinitions\Login.class
-Tests\Pages\LoginPage.class
+Tests\Pages\pensions\WhatIsaSippPage.class
 Tests\StepDefinitions\hooks.class
+Tests\StepDefinitions\navigateTest.class
 Tests\Utilities\ConfigurationReader.class
 Tests\Utilities\Driver.class
+Tests\Pages\investments\TopUKShares.class
+Tests\Pages\helpLearning\EthicalInvestingPage.class
+Tests\Pages\services\TradingAccountPage.class
+Tests\Pages\HomePage.class

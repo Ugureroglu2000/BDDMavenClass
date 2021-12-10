@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
         features = "src\\test\\resources\\Features",
         glue = "Tests\\StepDefinitions",
         dryRun = false,
-        tags = "@log"
-//        tags = {"@Remove","@log"} // And ==  runs the tags with Remove And log at the same time
+        tags = "@nav"
+
 )
 
 public class cukesRunner {

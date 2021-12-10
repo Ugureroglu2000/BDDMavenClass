@@ -77,7 +77,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>03 May 2021, 22:11</td>
+      <td>10 Dec 2021, 19:50</td>
     </tr>
   </tbody>
 </table>
@@ -117,24 +117,24 @@ $(document).ready(function() {
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_1_1758864348.html">User may login</a>
+      <a href="report-feature_569034124.html">User can navigate through Modules and Tabs</a>
     </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
-       <a href="report-tag_2149497603.html">@log</a>
+       <a href="report-tag_2149499106.html">@nav</a>
 </div>
 
 
-  <span class="lead-duration duration">0.244</span>
+  <span class="lead-duration duration">2.077</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
 <div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">User can test several credentials</span>
+  <span class="name">User can navigate</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -165,7 +165,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">Tests.StepDefinitions.hooks.before()</span>
 
-  <span class="lead-duration duration">1.275</span>
+  <span class="lead-duration duration">3.362</span>
 
           </div>
 
@@ -200,9 +200,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">User enters <span class="argument">&quot;standard_user&quot;</span> and <span class="argument">&quot;secret_sauce&quot;</span> and click</span>
+  <span class="name">User navigates to <span class="argument">&quot;Investments&quot;</span> <span class="argument">&quot;Top UK shares&quot;</span></span>
 
-  <span class="lead-duration duration">0.227</span>
+  <span class="lead-duration duration">0.833</span>
 
 </div>
 
@@ -227,9 +227,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
-  <span class="name">User can not login</span>
+  <span class="name">User is in <span class="argument">&quot;Top UK shares ERROR&quot;</span></span>
 
-  <span class="lead-duration duration">0.016</span>
+  <span class="lead-duration duration">1.244</span>
 
 </div>
 
@@ -241,16 +241,14 @@ $(document).ready(function() {
   <div class="inner-level">
     <div class="message indention">
       <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>java.lang.AssertionError</a>
+          <a>org.junit.ComparisonFailure:</a>
       </div>
       <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertFalse(Assert.java:65)
-	at org.junit.Assert.assertFalse(Assert.java:75)
-	at Tests.StepDefinitions.Login.user_can_not_login(Login.java:55)
-	at &#10045;.User can not login(file:///C:/Users/HP/IdeaProjects/BDDMavenClass/src/test/resources/Features/login.feature:23)
+        <pre>org.junit.ComparisonFailure: expected:&lt;Top UK shares[ ERROR]&gt; but was:&lt;Top UK shares[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at Tests.StepDefinitions.navigateTest.user_is_in(navigateTest.java:34)
+	at &#10045;.User is in &quot;Top UK shares ERROR&quot;(file:///C:/Users/Ugurr/IdeaProjects/ii-BDDMavenClass/src/test/resources/Features/navigate.feature:10)
 </pre>
       </div>
     </div>
@@ -292,7 +290,7 @@ $(document).ready(function() {
             <span class="keyword indention">After</span>
               <span class="location name">Tests.StepDefinitions.hooks.after(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.913</span>
+  <span class="lead-duration duration">0.923</span>
 
           </div>
 
@@ -305,13 +303,13 @@ $(document).ready(function() {
   <div class="embedding indention">
     <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
       <a>screenshot</a>
-      <a href="embeddings/embedding_-272415490.png" download target="_blank">
+      <a href="embeddings/embedding_-1141975448.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
     <div id="embedding-6" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_-272415490.png">
+        <img src="embeddings/embedding_-1141975448.png">
       </div>
     </div>
   </div>
